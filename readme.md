@@ -4,7 +4,7 @@ This class abstracts the handling of Python3's cryptography cryptography module.
 ---
 
 ## Documentation
-### ```CryptographyMethods.SHA256(secret)```  
+### ```[CryptographyMethods.SHA256(secret)](https://github.com/guyyatsu/CryptographyMethods/blob/6f8b67e360d991b6e432fb719ae8dad8b90b897e/src/CryptographyMethods/CryptographyMethods/CryptographyMethods.py#L21-L23)```  
 Simple one-way encryption for hashing secrets.
 
 ### ```CryptographyMethods.BuildKey(username, password)```  
