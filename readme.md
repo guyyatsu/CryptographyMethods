@@ -1,6 +1,8 @@
 # Lab-93 CryptographyMethods
 This class abstracts the handling of Python3's cryptography cryptography module.  The class provides one-way and two-way encryption methods for use with handling sensitive user credentials.
+
 ---
+
 # Documentation
 ## CryptographyMethods.SHA256(secret)
 Simple one-way encryption for hashing secrets.
