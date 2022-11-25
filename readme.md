@@ -3,13 +3,16 @@ This class abstracts the handling of Python3's cryptography cryptography module.
 
 ---
 
-# Documentation
-## CryptographyMethods.SHA256(secret)
+## Documentation
+```### CryptographyMethods.SHA256(secret)```
 Simple one-way encryption for hashing secrets.
-## CryptographyMethods.BuildKey(username, password)
+
+```### CryptographyMethods.BuildKey(username, password)```
 Create a base-64 encoded, url-safe, 32-bit key based on the SHA-256 hash
 of a given username and password.
-## CryptographyMethods.Encryption(phrase, target)
+
+```### CryptographyMethods.Encryption(phrase, target)```
 Encrypt a target object using a custom key.
-## CryptographyMethods.Decryption(phrase, target)
+
+```### CryptographyMethods.Decryption(phrase, target)```
 Decrypt a target object with it's generated key.
