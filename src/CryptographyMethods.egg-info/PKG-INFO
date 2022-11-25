@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: CryptographyMethods
+Version: 0.0.1
+Summary: Lab-93's implementation of Python's cryptography module.
+Author-email: Hunter Dale <hunter@guyyatsu.me>
+Project-URL: Homepage, https://github.com/guyyatsu/CryptographyMethods
+Project-URL: Bug Tracker, https://github.com/guyyatsu/CryptographyMethods/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Lab-93 CryptographyMethods
+This class abstracts the handling of Python3's cryptography cryptography module.  The class provides one-way and two-way encryption methods for use with handling sensitive user credentials.
