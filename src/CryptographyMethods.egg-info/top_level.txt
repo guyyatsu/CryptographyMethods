@@ -1,1 +1,2 @@
 CryptographyMethods
+__init__
