@@ -23,13 +23,13 @@ class CryptographyMethods():
     return hashlib.sha256(secret.encode()).hexdigest()
 
 
-  def BuildKey(self, username: str, password: str):
+  def BuildKey(self, key: str):
     """ Create a two-way encryption key using the first 32
     digits of the hash of a username and password strings.
 
         The results are then encoded in urlsafe-base64 bytes
     and returned to the caller. """
-    basecode = self.SHA256(str(username + password))[:32]
+    basecode = self.SHA256(str(key))[:32]
     key = urlsafe_b64encode(basecode.encode())
     return key
 
